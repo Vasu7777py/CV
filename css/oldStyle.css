@@ -1,0 +1,67 @@
+
+body{
+  margin: 0;
+  background-color: #E3FDFD;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/*
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Satisfy', cursive;
+font-family: 'Work Sans', sans-serif;
+*/
+
+
+.intro{
+  padding: 4.4rem;
+  margin: 15.63rem auto;
+}
+
+.intro h1{
+  font-family: 'Satisfy', cursive;
+}
+
+.intro p{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.continer{
+  margin: 6.25rem auto;
+  position: relative;
+}
+
+.continer img{
+  width: 25%;
+  height: 25%;
+  border: solid;
+  border-width: 2px;
+}
+
+.continer p{
+  width: 25%;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.continerItem{
+  position: absolute;
+}
+
+.aboutMe{
+  margin: 6.25rem auto;
+}
+
+.profilePic{
+  width: 25%;
+  height: 25%;
+  border: solid;
+  border-width: 2px;
+}
+
+.hobbieImg{
+  width: 25%;
+  height: 25%;
+  border: solid;
+  border-width: 2px;
+}
