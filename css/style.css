@@ -1,71 +1,14 @@
-.intro {
-  padding: 4.4rem;
-  margin: 15.63rem auto;
-}
-
-.intro h1 {
-  font-family: "Satisfy", cursive;
-}
-
-.intro p {
-  font-family: "IBM Plex Mono", monospace;
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-/*@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media print {
   body {
-    margin: 0;
-    background-color: #970000;
-    text-align: center;
-    font-family: sans-serif;
+    display: none;
   }
-}*/
+}
 
-/* Smartphones (landscape) ----------- */
+/* Smartphones ----------- */
 @media only screen and (min-width: 321px) {
   body {
     margin: 0;
     background-color: #da5757;
-    text-align: center;
-    font-family: sans-serif;
-  }
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (max-width: 320px) {
-  body {
-    margin: 0;
-    background-color: #970000;
-    text-align: center;
-    font-family: sans-serif;
-  }
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  body {
-    margin: 0;
-    /* background-color: #e3fdfd; */
-    text-align: center;
-    font-family: sans-serif;
-  }
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  body {
-    margin: 0;
-    /* background-color: #e3fdfd; */
-    text-align: center;
-    font-family: sans-serif;
-  }
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  body {
-    margin: 0;
-    /* background-color: #e3fdfd; */
     text-align: center;
     font-family: sans-serif;
   }
@@ -79,14 +22,37 @@
     text-align: center;
     font-family: sans-serif;
   }
+
+  .intro {
+    padding: 4.4rem;
+    margin: 15.63rem auto;
+  }
+
+  .intro h1 {
+    font-family: "Satisfy", cursive;
+  }
+
+  .intro p {
+    font-family: "IBM Plex Mono", monospace;
+  }
+
+  .aboutMe {
+    padding: 2.34rem;
+    margin: 0 auto;
+    background-color: #cbf1f5;
+  }
+
+  .profilePic {
+    border-radius: 50%;
+  }
 }
 
 /* Large screens ----------- */
-@media only screen and (min-width: 1824px) {
+/* @media only screen and (min-width: 1824px) {
   body {
     margin: 0;
     background-color: #00a1a1;
     text-align: center;
     font-family: sans-serif;
   }
-}
+} */

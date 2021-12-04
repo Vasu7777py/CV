@@ -1,61 +1,59 @@
-
-body{
+body {
   margin: 0;
-  background-color: #E3FDFD;
+  background-color: #e3fdfd;
   text-align: center;
   font-family: sans-serif;
 }
 
-hr{
+hr {
   border-style: dotted;
   border-width: medium;
   border-bottom: none;
   width: 25%;
-  color: #A6E3E9;
+  color: #a6e3e9;
   margin: 0 auto;
 }
 
-
-.intro{
+.intro {
   padding: 4.4rem;
   margin: 15.63rem auto;
 }
 
-.intro h1{
-  font-family: 'Satisfy', cursive;
+.intro h1 {
+  font-family: "Satisfy", cursive;
 }
 
-.intro p{
-  font-family: 'IBM Plex Mono', monospace;
+.intro p {
+  font-family: "IBM Plex Mono", monospace;
 }
 
-.aboutMe{
+.aboutMe {
   padding: 2.34rem;
   margin: 0 auto;
-  background-color: #CBF1F5;
+  background-color: #cbf1f5;
 }
 
-.profilePic{
+.profilePic {
   border-radius: 50%;
 }
 
-.hobbies{
+.hobbies {
   padding: 1.9rem;
   margin: 0 auto;
-  background-color: #A6E3E9;
+  background-color: #a6e3e9;
 }
 
-.hobbies h2{
-  color: #71C9CE;
+.hobbies h2 {
+  color: #71c9ce;
 }
 
-.hobbie{
+.hobbie {
   padding: 0.9rem;
   margin: 2.5rem auto;
   width: 25%;
 }
 
-.hobbie img{
+.hobbie img {
   width: 30%;
   height: 30%;
   border: solid;
@@ -64,17 +62,17 @@ hr{
   margin-right: 1rem;
 }
 
-.hobbie p{
+.hobbie p {
   line-height: 2;
 }
 
-.continer{
+.continer {
   padding: 1.44px;
   margin: 0 auto;
-  background-color: #71C9CE;
+  background-color: #71c9ce;
 }
 
-.knloadge{
+.knloadge {
   margin: 2.5rem auto;
   width: 40%;
 }
@@ -83,14 +81,14 @@ hr{
   margin: 0 auto 150px;
 }
 
-.language img{
+.language img {
   width: 150px;
   height: 150px;
   float: left;
   margin-right: 1rem;
 }
 
-.language p{
+.language p {
   line-height: 2;
 }
 
@@ -98,12 +96,12 @@ hr{
   margin: 0 auto 150px;
 }
 
-.certificate img{
+.certificate img {
   width: 300px;
   height: 200px;
 }
 
-.contactMe{
-  background-color: #CBF1F5;
+.contactMe {
+  background-color: #cbf1f5;
   padding: 0.5rem;
 }
