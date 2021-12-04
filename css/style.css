@@ -1,109 +1,92 @@
-
-body{
-  margin: 0;
-  background-color: #E3FDFD;
-  text-align: center;
-  font-family: sans-serif;
-}
-
-hr{
-  border-style: dotted;
-  border-width: medium;
-  border-bottom: none;
-  width: 25%;
-  color: #A6E3E9;
-  margin: 0 auto;
-}
-
-
-.intro{
+.intro {
   padding: 4.4rem;
   margin: 15.63rem auto;
 }
 
-.intro h1{
-  font-family: 'Satisfy', cursive;
+.intro h1 {
+  font-family: "Satisfy", cursive;
 }
 
-.intro p{
-  font-family: 'IBM Plex Mono', monospace;
+.intro p {
+  font-family: "IBM Plex Mono", monospace;
 }
 
-.aboutMe{
-  padding: 2.34rem;
-  margin: 0 auto;
-  background-color: #CBF1F5;
+/* Smartphones (portrait and landscape) ----------- */
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    margin: 0;
+    background-color: #970000;
+    text-align: center;
+    font-family: sans-serif;
+  }
+}*/
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  body {
+    margin: 0;
+    background-color: #da5757;
+    text-align: center;
+    font-family: sans-serif;
+  }
 }
 
-.profilePic{
-  border-radius: 50%;
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  body {
+    margin: 0;
+    background-color: #970000;
+    text-align: center;
+    font-family: sans-serif;
+  }
 }
 
-.hobbies{
-  padding: 1.9rem;
-  margin: 0 auto;
-  background-color: #A6E3E9;
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    margin: 0;
+    /* background-color: #e3fdfd; */
+    text-align: center;
+    font-family: sans-serif;
+  }
 }
 
-.hobbies h2{
-  color: #71C9CE;
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  body {
+    margin: 0;
+    /* background-color: #e3fdfd; */
+    text-align: center;
+    font-family: sans-serif;
+  }
 }
 
-.hobbie{
-  padding: 0.9rem;
-  margin: 2.5rem auto;
-  width: 25%;
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  body {
+    margin: 0;
+    /* background-color: #e3fdfd; */
+    text-align: center;
+    font-family: sans-serif;
+  }
 }
 
-.hobbie img{
-  width: 30%;
-  height: 30%;
-  border: solid;
-  border-width: 2px;
-  float: left;
-  margin-right: 1rem;
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  body {
+    margin: 0;
+    background-color: #e3fdfd;
+    text-align: center;
+    font-family: sans-serif;
+  }
 }
 
-.hobbie p{
-  line-height: 2;
-}
-
-.continer{
-  padding: 1.44px;
-  margin: 0 auto;
-  background-color: #71C9CE;
-}
-
-.knloadge{
-  margin: 2.5rem auto;
-  width: 40%;
-}
-
-.language {
-  margin: 0 auto 150px;
-}
-
-.language img{
-  width: 150px;
-  height: 150px;
-  float: left;
-  margin-right: 1rem;
-}
-
-.language p{
-  line-height: 2;
-}
-
-.certificate {
-  margin: 0 auto 150px;
-}
-
-.certificate img{
-  width: 300px;
-  height: 200px;
-}
-
-.contactMe{
-  background-color: #CBF1F5;
-  padding: 0.5rem;
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  body {
+    margin: 0;
+    background-color: #00a1a1;
+    text-align: center;
+    font-family: sans-serif;
+  }
 }
