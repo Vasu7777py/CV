@@ -1,58 +1,41 @@
-@media print {
-  body {
-    display: none;
-  }
+body {
+  margin: 0;
+  background-color: #e3fdfd;
+  text-align: center;
+  font-family: sans-serif;
 }
 
-/* Smartphones ----------- */
-@media only screen and (min-width: 321px) {
-  body {
-    margin: 0;
-    background-color: #da5757;
-    text-align: center;
-    font-family: sans-serif;
-  }
+.intro {
+  padding: 4.4rem;
+  margin: 15.63rem auto;
 }
 
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-  body {
-    margin: 0;
-    background-color: #e3fdfd;
-    text-align: center;
-    font-family: sans-serif;
-  }
-
-  .intro {
-    padding: 4.4rem;
-    margin: 15.63rem auto;
-  }
-
-  .intro h1 {
-    font-family: "Satisfy", cursive;
-  }
-
-  .intro p {
-    font-family: "IBM Plex Mono", monospace;
-  }
-
-  .aboutMe {
-    padding: 2.34rem;
-    margin: 0 auto;
-    background-color: #cbf1f5;
-  }
-
-  .profilePic {
-    border-radius: 50%;
-  }
+.intro h1 {
+  font-family: "Satisfy", cursive;
 }
 
-/* Large screens ----------- */
-/* @media only screen and (min-width: 1824px) {
-  body {
-    margin: 0;
-    background-color: #00a1a1;
-    text-align: center;
-    font-family: sans-serif;
-  }
-} */
+.footter {
+  width: 100%;
+  padding: 60px;
+  color: #fff;
+}
+
+.footter ul {
+  list-style: none;
+}
+
+.footter ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.contact {
+  text-decoration: none;
+  color: #fff;
+  transition: all 300ms ease-in-out;
+}
+
+.contact:hover {
+  color: cyan;
+  font-weight: bold;
+}
