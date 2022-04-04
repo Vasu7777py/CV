@@ -5,6 +5,11 @@ body {
   font-family: sans-serif;
 }
 
+hr {
+  width: 95%;
+  margin: 0 auto;
+}
+
 .intro {
   padding: 4.4rem;
   margin: 15.63rem auto;
@@ -12,6 +17,34 @@ body {
 
 .intro h1 {
   font-family: "Satisfy", cursive;
+}
+
+.intro p {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.intro img {
+  border-radius: 50%;
+}
+
+.detailes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.sideBar {
+  width: 750px;
+  margin-right: 1rem;
+}
+
+.mainContent {
+  width: 100%;
+  height: 200px;
 }
 
 .footter {
