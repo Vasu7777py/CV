@@ -1,3 +1,8 @@
+
+* {
+  transition: all 300ms ease-in-out;
+}
+
 body {
   margin: 0;
   background-color: #e3fdfd;
@@ -10,13 +15,26 @@ hr {
   margin: 0 auto;
 }
 
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: .5rem;
+  border-radius: 1rem;
+}
+
+.liPading {
+  padding: .5rem;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Satisfy", cursive;
+}
+
 .intro {
   padding: 4.4rem;
   margin: 15.63rem auto;
-}
-
-.intro h1 {
-  font-family: "Satisfy", cursive;
 }
 
 .intro p {
@@ -42,6 +60,36 @@ hr {
   margin-right: 1rem;
 }
 
+.contact {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact:hover {
+  font-weight: bold;
+  color: #000;
+}
+
+.skils ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.progList li {
+  display: inline-block;
+}
+
+.intrests ul li{
+  display: inline-block;
+}
+
+.divider {
+  transform:rotate(90deg);
+  margin: 0px;
+}
+
 .mainContent {
   width: 100%;
   height: 200px;
@@ -53,22 +101,17 @@ hr {
   color: #fff;
 }
 
-.footter ul {
-  list-style: none;
-}
-
 .footter ul li {
   display: inline-block;
   padding: 5px;
 }
 
-.contact {
+.contactF {
   text-decoration: none;
   color: #fff;
-  transition: all 300ms ease-in-out;
 }
 
-.contact:hover {
+.contactF:hover {
   color: cyan;
   font-weight: bold;
 }
