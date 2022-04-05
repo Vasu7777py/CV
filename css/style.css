@@ -1,6 +1,6 @@
 
-* {
-  transition: all 300ms ease-in-out;
+a {
+  transition: all 200ms ease;
 }
 
 body {
@@ -28,7 +28,7 @@ ul li {
   padding: .5rem;
 }
 
-h1, h2, h3, h4 {
+h1, h3, h4, h5 {
   font-family: "Satisfy", cursive;
 }
 
@@ -47,7 +47,6 @@ h1, h2, h3, h4 {
 
 .detailes {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   width: 95%;
   margin: auto;
@@ -81,7 +80,7 @@ h1, h2, h3, h4 {
   display: inline-block;
 }
 
-.intrests ul li{
+.interests ul li{
   display: inline-block;
 }
 
@@ -92,7 +91,11 @@ h1, h2, h3, h4 {
 
 .mainContent {
   width: 100%;
-  height: 200px;
+  border-left: 1px solid #0dcaf0;
+}
+
+.certifImage {
+  width: 300px;
 }
 
 .footter {
