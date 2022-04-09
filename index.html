@@ -21,6 +21,35 @@
 </head>
 
 <body class="">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts">contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#languages">languages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificates">certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footter">footter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <div class="intro">
     <h1>I`m Vasu Subbannavar</h1>
@@ -29,16 +58,16 @@
   </div>
   <hr class="bg-info">
 
-  <div class="detailes">
-    <div class="sideBar">
-      <div class="Contacts">
+  <div class="detailes row">
+    <div class="col-md-4">
+      <div class="Contacts" id="contacts">
         <h3>Contact</h3>
         <ul>
           <li><a target="_blank" href="mailto:subbannavarvasu@gmail.com" class="contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> subbannavarvasu@gmail.com</a></li>
-          <li>+91 7899927254</li>
+          <li><a href="tel:+91 7899927254" class="contact"><li>+91 7899927254</li></a></li>
           <li><a target="_blank" href="https://twitter.com/Vasu_7777" class="contact"><i class="fa fa-twitter" aria-hidden="true"></i> @Vasu_7777</a></li>
           <li><a target="_blank" href="https://www.linkedin.com/in/vasu-subbannavar-3a33791b1/" class="contact"><i class="fa fa-linkedin" aria-hidden="true"></i> Vasu Subbannavar</a></li>
-          <li><a target="_previ" href="https://github.com/Vasu7777py" class="contact"><i class="fa fa-github" aria-hidden="true"></i> Vasu7777py </a></li>
+          <!-- <li><a target="_previ" href="https://github.com/Vasu7777py" class="contact"><i class="fa fa-github" aria-hidden="true"></i> Vasu7777py </a></li> -->
           <li>Bangalore</li>
         </ul>
       </div>
@@ -54,7 +83,7 @@
         </ul>
       </div>
       <hr class="bg-info">
-      <div class="languages">
+      <div class="languages" id="languages">
         <h3>Languages</h3>
         <h4>Regular Languages</h4>
         <ul class="langList">
@@ -82,8 +111,8 @@
       </div>
     </div>
     <!-- <hr class="divider bg-info"> -->
-    <div class="mainContent">
-      <div class="training">
+    <div class="col mainContent">
+      <div class="training" id="certificates">
         <h3>Courses</h3>
         <h4>Techinical</h4>
         <ul>
@@ -112,48 +141,57 @@
         </ul>
       </div>
       <hr class="bg-info">
-      <div class="education">
+      <div class="education" id="education">
         <h3>Education</h3>
-        <ul>
-          <li>
+        <div class="row">
+          <div class="col-md-4 study">
             <h5>Bachelor of Engineering : Information Science engineering</h5>
-            <ul>
-              <li>Collage : RNSIT Institute of Technology</li>
-              <li>Location : Bangalore</li>
-              <li>Course : ISe</li>
-              <li>August 2019 - Present (6<sup>th</sup> Sem)</li>
-              <li>CGPA : 7.47</li>
-            </ul>
-          </li>
-          <li>
+              <ul>
+                <li><strong>Collage</strong> : RNSIT Institute of Technology</li>
+                <li><strong>Location</strong> : Bangalore</li>
+                <li><strong>Course</strong> : ISe</li>
+                <li><strong>Time Period</strong> : August 2019 - Present (6<sup>th</sup> Sem)</li>
+                <li><strong>CGPA</strong> : 7.47</li>
+              </ul>
+          </div>
+          <div class="col-md-4 study">
             <h5>Pre University : Computer Science</h5>
-            <ul>
-              <li>Collage : Jain</li>
-              <li>Location : Bangalore</li>
-              <li>Course : Physics, Chemistry, Mathematics, Computer Science</li>
-              <li>????</li>
-              <li>Grade : 60%</li>
-            </ul>
-          </li>
-          <li>
+              <ul>
+                <li><strong>Collage</strong> : Jain</li>
+                <li><strong>Location</strong> : Bangalore</li>
+                <li><strong>Course</strong> : Physics, Chemistry, Mathematics, Computer Science</li>
+                <li><strong>Time Period</strong> : ????</li>
+                <li><strong>Grade</strong> : 60%</li>
+              </ul>
+          </div>
+          <div class="col-md-4 study">
             <h5>SSCL (10<sup>th</sup> State)</h5>
-            <ul>
-              <li>School : Alvas</li>
-              <li>Location : Mangalore</li>
-              <li>?????</li>
-              <li>Grade : 75%</li>
-            </ul>
-          </li>
-        </ul>
+              <ul>
+                <li><strong>School</strong> : Alvas</li>
+                <li><strong>Location</strong> : Mangalore</li>
+                <li><strong>Time Period</strong> : ?????</li>
+                <li><strong>Grade</strong> : 75%</li>
+              </ul>
+          </div>
+          <div class="space"></div>
+        </div>
+      </div>
+      <hr class="bg-info">
+      <div class="project" id="projects">
+        <h3 class="projectsHeadder">Projects</h3>
+        <a target="_previ" href="https://github.com/Vasu7777py" class="contact"><i class="fa fa-github" aria-hidden="true"></i> Vasu7777py </a>
+        <h4>Collage Projects</h4>
+        <ul></ul>
+        <h4>Personal Projects</h4>
       </div>
     </div>
   </div>
   
-  <div class="footter bg-secondary">
+  <div class="footter bg-secondary" id="footter">
     <ul>
       <li><a target="_blank" href="https://twitter.com/Vasu_7777" class="contactF"><i class="fa fa-twitter" aria-hidden="true"></i> twitter</a></li>
       <li><a target="_blank" href="https://www.linkedin.com/in/vasu-subbannavar-3a33791b1/" class="contactF"><i class="fa fa-linkedin" aria-hidden="true"></i> linkedin</a></li>
-      <li><a target="_blank" href="https://github.com/Vasu7777py" class="contactF"><i class="fa fa-github" aria-hidden="true"></i> github </a></li>
+      <!-- <li><a target="_blank" href="https://github.com/Vasu7777py" class="contactF"><i class="fa fa-github" aria-hidden="true"></i> github </a></li> -->
       <li><a target="_blank" href="mailto:subbannavarvasu@gmail.com" class="contactF"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</a></li>
     </ul>
     <i class="fa fa-copyright" aria-hidden="true"></i> copyright 2022
