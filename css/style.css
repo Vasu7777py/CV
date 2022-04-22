@@ -1,6 +1,12 @@
 
 a {
   transition: all 200ms ease;
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  font-weight: bold;
 }
 
 body {
@@ -77,7 +83,6 @@ h1, h3, h4, h5 {
 }
 
 .contact:hover {
-  font-weight: bold;
   color: #000;
 }
 
@@ -154,5 +159,4 @@ h1, h3, h4, h5 {
 
 .contactF:hover {
   color: #0dcaf0;
-  font-weight: bold;
 }
